@@ -49,7 +49,7 @@ Pick a model, enter a prompt, click *Generate project*. You can browse the code,
 
 **CLI**
 ```bash
-python main.py "Build a to-do list web app with local storage" --model qwen/qwen3-32b
+python main.py "Build a to-do list web app with local storage" --model openai/gpt-oss-120b
 ```
 
 ## Project layout

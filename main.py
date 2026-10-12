@@ -2,8 +2,8 @@
 import argparse
 from pathlib import Path
 
-from .agent import run_stream
-from .agent.tools import zip_project
+from agent import run_stream
+from agent.tools import zip_project
 
 
 def main():

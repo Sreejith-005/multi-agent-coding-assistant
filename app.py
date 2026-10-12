@@ -5,8 +5,8 @@ from pathlib import Path
 import streamlit as st
 import streamlit.components.v1 as components
 
-from .agent import run_stream
-from .agent.tools import list_files, read_file, zip_project
+from agent import run_stream
+from agent.tools import list_files, read_file, zip_project
 
 st.set_page_config(page_title="Coder Buddy", page_icon="🤖", layout="wide")
 
